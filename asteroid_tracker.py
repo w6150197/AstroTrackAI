@@ -57,3 +57,5 @@ if __name__ == "__main__":
     future_times = np.array([[100], [105], [110], [115], [120]])
     predict_and_alert(model, future_times)
     plot_data(data, model)
+except Exception as e:
+    print(f\"An error occurred: {e}\")
