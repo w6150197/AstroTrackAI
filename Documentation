@@ -1,1 +1,3 @@
-
+git add docs/AstroTrackAI.pdf
+git commit -m "Add project documentation PDF"
+git push origin main
